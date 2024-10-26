@@ -1,0 +1,19 @@
+{"US":{
+    "Normal":{"Standard_Size":{"9":0.87,"12":2.4},
+                "Oversize":{"9":0.56,"12":1.4}},
+    "Hazard":{"Standard_Size":{"9":0.99,"12":3.63},
+                "Oversize":{"9":0.78,"12":2.43}}
+},
+"CA":{"Normal":{"Standard_Size":{"9":30,"12":44},
+                "Oversize":{"9":21,"12":30}}},
+
+"UK":{"Normal":{"Standard_Size":{"9":0.78,"12":1.1},
+                "Oversize":{"9":0.46,"12":0.64}},
+      "Hazard":{"Standard_Size":{"9":0.75,"12":1.05},
+                "Oversize":{"9":0.65,"12":0.9}}, 
+      "Cloth":{"Standard_Size":{"9":0.47,"12":0.6},
+                "Oversize":{"9":0.46,"12":0.64}}   }                
+
+
+
+}

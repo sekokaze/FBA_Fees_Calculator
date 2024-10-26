@@ -1,0 +1,90 @@
+{"US":{
+    "Weight_Unit":"LB",
+    "Size_Unit":"INCH",
+    "Volume_Unit":"CBF",
+    "volume_weight":139, 
+    "Volume_Size":1728, 
+
+
+    "Normal":{
+        "Small_Standard_Size":{"weight":1,"L-side":15,"M-side":12,"S-side":0.75,"L+G":"NA"},
+        "Large_Standard_Size":{"weight":20,"L-side":18,"M-side":14,"S-side":8,"L+G":"NA"},
+        "Large_Bulky":{"weight":50,"L-side":59,"M-side":33,"S-side":33,"L+G":130},
+        "Extra_Large_0-50":{"weight":50,"L-side":"NA","M-side":"NA","S-side":"NA","L+G":"NA"},
+        "Extra_Large_50-70":{"weight":70,"L-side":"NA","M-side":"NA","S-side":"NA","L+G":"NA"},
+        "Extra_Large_70-150":{"weight":150,"L-side":"NA","M-side":"NA","S-side":"NA","L+G":"NA"},
+        "Extra_Large_150+":{"weight":"NA","L-side":"NA","M-side":"NA","S-side":"NA","L+G":"NA"}
+    },
+
+                
+    "Product_Size_List":["Small_Standard_Size","Large_Standard_Size","Large_Bulky","Extra_Large_0-50","Extra_Large_50-70","Extra_Large_70-150","Extra_Large_150+"],
+
+    "Standard_Size":["Small_Standard_Size","Large_Standard_Size"],
+
+    "Oversize":["Large_Bulky","Extra_Large_0-50","Extra_Large_50-70","Extra_Large_70-150","Extra_Large_150+"],
+
+    "Minimum_Volume":["Large_Bulky","Extra_Large_0-50","Extra_Large_50-70","Extra_Large_70-150","Extra_Large_150+"],
+
+    "Judge_Actural_Weight":["Small_Standard_Size","Extra_Large_150+"]
+
+},
+
+
+"CA":{
+    "Weight_Unit":"KG",
+    "Size_Unit":"CM",
+    "Volume_Unit":"CBM",
+    "volume_weight":5000, 
+    "Volume_Size":1000000, 
+    "Normal":{
+        "Envelope_Size":{"weight":0.5,"L-side":38,"M-side":27,"S-side":2,"L+G":"NA"},
+        "Standard_Size":{"weight":9,"L-side":45,"M-side":35,"S-side":20,"L+G":"NA"},
+        "Small_Oversize":{"weight":32,"L-side":152,"M-side":76,"S-side":"NA","L+G":330},
+        "Medium_Oversize":{"weight":68,"L-side":270,"M-side":"NA","S-side":"NA","L+G":330},
+        "Large_Oversize":{"weight":68,"L-side":270,"M-side":"NA","S-side":"NA","L+G":419},
+        "Special_Oversize":{"weight":68,"L-side":270,"M-side":"NA","S-side":"NA","L+G":419}
+    },
+    "Product_Size_List":["Envelope_Size","Standard_Size","Small_Oversize","Medium_Oversize","Large_Oversize","Special_Oversize"],
+
+    "Standard_Size":["Envelope_Size","Standard_Size"],
+
+    "Oversize":["Small_Oversize","Medium_Oversize","Large_Oversize","Special_Oversize"],
+
+    "Minimum_Volume":["Small_Oversize","Medium_Oversize","Large_Oversize","Special_Oversize"],
+
+    "Judge_Actural_Weight":["Envelope_Size","Special_Oversize"]
+
+
+
+
+
+},
+
+"UK":{
+    "Weight_Unit":"KG",
+    "Size_Unit":"CM",
+    "Volume_Unit":"CBF",
+    "volume_weight":5000, 
+    "Volume_Size":1278, 
+    "Normal":{
+        "Small_Envelope":{"weight":0.08,"L-side":20,"M-side":15,"S-side":1,"L+G":"NA"},
+        "Standard_Envelope":{"weight":0.46,"L-side":33,"M-side":23,"S-side":2.5,"L+G":"NA"},
+        "Large_Envelope":{"weight":0.96,"L-side":33,"M-side":23,"S-side":4,"L+G":"NA"},
+        "Extra_Large_Envelope":{"weight":0.96,"L-side":33,"M-side":23,"S-side":6,"L+G":"NA"},
+        "Small_Parcel":{"weight":3.9,"L-side":35,"M-side":25,"S-side":12,"dw":3.9},
+        "Standard_Parcel":{"weight":11.9,"L-side":45,"M-side":34,"S-side":26,"dw":11.9},
+        "Small_Oversize":{"weight":1.76,"L-side":61,"M-side":46,"S-side":46,"dw":25.82},
+        "Standard_Oversize":{"weight":29.76,"L-side":120,"M-side":60,"S-side":60,"dw":86.4},
+        "Large_Oversize":{"weight":31.5,"L-side":120,"M-side":60,"S-side":60,"dw":108},
+        "Special_Oversize":{"weight":68,"L-side":175,"M-side":"NA","S-side":"NA","L+G":419} 
+    },
+    "Product_Size_List":["Small_Envelope","Standard_Envelope","Large_Envelope","Extra_Large_Envelope","Small_Parcel",
+    "Standard_Parcel","Small_Oversize","Standard_Oversize","Large_Oversize","Special_Oversize"]
+
+
+
+    
+}
+
+}
+
