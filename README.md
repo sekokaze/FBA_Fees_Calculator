@@ -17,7 +17,7 @@ FBA_Fees_Calculator 是一个用于计算亚马逊 FBA 费用的工具。该工�
 1. 克隆仓库到本地：
 
     ```bash
-    git clone https://github.com/your-username/FBA_Fees_Calculator.git
+    git clone https://github.com/sekokaze/FBA_Fees_Calculator.git
     ```
 
 2. 安装依赖：
